@@ -1,0 +1,21 @@
+{
+    "name": "entere/weixin",
+    "description": "weixin login",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "entere",
+            "email": "entere@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Weixin\\OpenPlatform\\": "src/Weixin/OpenPlatform",
+            "Weixin\\MpPlatform\\": "src/Weixin/MpPlatform"
+        }
+    }   
+}
